@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none; 
+}
+
+body{
+    background: rgb(27, 27, 27)
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.card{
+   background-color: white; 
+   width:270px;
+   margin:10px;
+   border-radius: 15px;
+}
+
+.card-image{
+    background-color: aqua;
+    height:170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.carro-1{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/dmafe3kxkaaotim-1509629883.jpg);
+}
+
+.carro-2{
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2023/08/mclaren-p1.jpg);
+}
+
+.carro-3{
+    background-image: url(https://www.automaistv.com.br/wp-content/uploads/2023/08/Porsche-911-GT3-RS-2.jpg)
+}
+
+.carro-4{
+    background-image: url(https://bocamafrapremium.com.br/wp-content/uploads/2023/07/lamborghini-huracan-sto.jpg)
+}
+
+.carro-5{
+    background-image: url(https://fsautomoveis.com/wp-content/uploads/2023/02/Ferrari-458-AS-37-GL.jpg);
+}
+
+.carro-6{
+    background-image: url(https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F03%2Fkoenigsegg-regera-bring-a-trailer-auction-for-sale-0.jpg?w=960&cbr=1&q=90&fit=max);
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+  
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.header{
+    width:100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+}
+    
+.inner-header{
+    width: 1000px;
+    height:100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.logo-container{
+    height: 100%;
+    display: table; 
+    float: left;  
+}
+
+.logo-container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-list li{
+    background-color: black;
+    text-decoration: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+}
+
+.nav-list a{
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+    display: block;
+    text-align: center;
+    margin: 2px 5px;
+    text-decoration: none;
+}
